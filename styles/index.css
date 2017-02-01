@@ -1,0 +1,136 @@
+body, html {
+    color: #F9F9F9;
+    border: 0;    
+    padding: 0;
+    height: 100%; 
+    overflow: hidden; 
+    font-family: 'Open Sans', sans-serif;      
+}
+
+
+
+nav.navbar {        
+    height: 64px;
+    display: flex;
+    padding: 8px 8px 0px 8px;
+    text-align: center;
+    justify-content: space-between;
+}
+
+a.nav-link {  
+    width: 50%;
+    text-align: center;  
+    font-size: 32px;
+}
+
+a {
+    color: #F9F9F9;
+    font-style: none;
+    text-decoration: none;
+    transform-style: preserve-3d;
+    transition-delay: .1s;
+    transition-duration: .2s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);    
+}
+
+a:hover {
+    color: #cc181e;
+}
+
+img.albumart {
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 1);
+}
+
+div.stores {
+    width: 100%;
+    display: flex;    
+    justify-content: space-between;    
+}
+
+a.media-links {
+    margin-top: 8px;
+    width: 100%;
+    text-align: center;  
+    font-size: 32px;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+a.media-links#fb:hover {
+    color: #4267b2;
+}
+
+a.media-links#itunes:hover {
+    color: #999;
+}
+
+a.media-links#spotify:hover {
+    color: #2EBD59;
+}
+
+h3 {
+    margin: 0px 8px 0px 0px;    
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+@media (orientation: portrait) {    
+
+    html {  
+        background: url(../images/background_portrait.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;    
+    }
+
+    div.blackstar {
+        width: 70%;    
+        margin: 0px 15% 8px 15%;        
+        text-align: center;    
+        padding: 8px;
+        display: block;
+        position: fixed; 
+        top: 0;   
+    }   
+     
+    img.logo {
+        width: 70%;    
+        margin: 0px 15% 8px 15%;        
+        text-align: center;    
+        padding: 8px;
+        display: block;
+        position: fixed; 
+        bottom: 0;   
+    }        
+}
+
+@media (orientation: landscape) {
+    html {  
+        background: url(../images/background.jpg) no-repeat top center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;    
+    }
+
+    div.blackstar {
+        width: 20%;    
+        margin: 0px 40% 8px 40%;        
+        text-align: center;    
+        padding: 8px;
+        display: block;
+        position: fixed; 
+        bottom: 0;   
+    }
+
+    img.logo {
+        width: 20%;    
+        margin: 0px 40% 8px 40%;        
+        text-align: center;    
+        padding: 8px;
+        display: block;
+        position: fixed; 
+        top: 0;   
+    }    
+}
