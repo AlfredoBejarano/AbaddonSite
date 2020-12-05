@@ -118,8 +118,8 @@ img.bg {
      
     img.logo {
         z-index: 3;
-        width: 70%;    
-        margin: 0px 15% 8px 15%;        
+        width: 90%;    
+        margin: 0px 5% 10% 5%;
         text-align: center;    
         padding: 8px;
         display: block;
@@ -155,11 +155,10 @@ img.bg {
     }
 
     img.logo {
-        width: 20%;    
-        margin: 0px 40% 8px 40%;        
+        width: 36%;    
+        margin: 0px 32% 8px 32%;
         text-align: center;    
-        padding: 8px;
-        display: block;
+        padding: 8px;    
         z-index: 3;
         position: fixed; 
         top: 0;   
