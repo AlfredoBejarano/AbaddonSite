@@ -113,7 +113,7 @@ img.bg {
         display: block;
         position: fixed; 
         top: 0;
-        z-index: 3;
+        z-index: 4;
     }   
      
     img.logo {
@@ -150,7 +150,7 @@ img.bg {
         padding: 8px;
         display: block;
         position: fixed;
-        z-index: 3;
+        z-index: 4;
         bottom: 0;
     }
 
@@ -187,4 +187,52 @@ img.bg {
         right: 0;
         margin: 0px auto 0px auto;
     }
+}
+
+@media only screen and (min-width: 1000px) {
+
+    div.blackstar {
+        width: 15%;
+        margin: 0px 42% 8px 42%;
+        text-align: center;
+        padding: 8px;
+        display: block;
+        position: fixed;
+        z-index: 4;
+        bottom: 0;
+    }
+
+    img.logo {
+        width: 36%;    
+        margin: 0px 32% 8px 32%;
+        text-align: center;    
+        padding: 8px;    
+        z-index: 2;
+        position: fixed; 
+        top: 0;   
+    }
+
+    img.band {
+        left: 0;
+        position: fixed;
+        z-index: 3;
+        width: auto;
+        height: 75%;
+        bottom: 0;
+        right: 0;
+        margin: 0px auto 0px auto;
+    }
+
+    img.angel {
+        filter: blur(1px);
+        -webkit-filter: blur(1px);
+        left: 0;
+        position: fixed;
+        z-index: 1;
+        width: auto;
+        height: 80%;
+        bottom: 0;
+        right: 0;
+        margin: 0px auto 0px auto;
+    }   
 }
